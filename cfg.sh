@@ -13,7 +13,7 @@ cd /home/ec2-user
 sleep 5
 git clone https://github.com/Abhijitchougule/AWS.git
 sleep 5
-mkdir inc
+mkdir /var/www/inc
 sudo cp /home/ec2-user/AWS/dbinfo.inc /var/www/inc/
 sleep 5
 sudo cp /home/ec2-user/AWS/SamplePage.php /var/www/html/
